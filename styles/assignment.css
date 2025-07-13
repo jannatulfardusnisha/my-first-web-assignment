@@ -239,3 +239,84 @@ color: #8987a1;
   font-family: Inter;
 
 }
+/* review */
+.review{
+ background-color: #f6f8ff;
+  padding: 60px 0;
+  text-align: center;
+  font-family: Raleway;
+  gap: 50px;
+  display: grid;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.review h2{
+color: #252432;
+  text-align: center;
+
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.content-review{
+display: flex;
+gap: 20px;
+justify-content: space-between;
+}
+.card{
+background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  max-width: 300px;
+  text-align: left;
+}
+.card h3{
+font-size: 1.1rem;
+margin-bottom: 10px;
+color: #1a1a1a;
+
+}
+.card p{
+color: #555;
+font-size: 0.95rem;
+gap: 5px;
+margin-bottom: 5px;
+
+}
+.star-design{
+ color: #ffc107;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+
+}
+.reviewr-info{
+display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.reviewr-info img{
+ width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+.info{
+display: flex;
+height: fit-content;
+flex-direction: column;
+justify-content: center;
+}
+.name{
+color: #6b6a6a;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 0.9rem;
+
+}
+.date{
+  font-family: Inter;
+  font-size: 0.8rem;
+  color: #888;
+  margin: 0;
+}
