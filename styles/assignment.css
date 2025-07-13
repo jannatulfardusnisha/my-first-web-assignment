@@ -145,3 +145,97 @@ background-color: aqua;
   border-radius: 20px;
   justify-content: space-between;
 }
+/* user status */
+.user {
+    background-color: #eaeaff;
+     max-width: 1140px;
+     border-radius: 16px;
+ margin: 50px auto;
+ padding: 50px 0;
+ justify-content: center;
+ text-align: center;
+ flex-direction: column;
+}
+
+.user-content {
+  gap: 40px;
+  display: grid;
+    
+}
+.user-content h2{
+  text-align: center;
+   color: #252432;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  align-self: stretch;
+}
+.status{
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+.status-box h3{
+ color: var(--Primary-Color, #4e47ff);
+  font-family: Inter;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.status-box p{
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+/* Make footer */
+footer{
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3em;
+  background-color: white;
+  padding: 104px 0 103px 0;
+}
+.logo{
+color: var(--Primary-Color, #4e47ff);
+  text-align: center;
+  font-family: Inter;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.logo-status{
+ margin-top: 8px;
+  color: #8987a1;
+  text-align: center;
+  width: 531px;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+ul{
+display: flex;
+  gap: 48px;
+  justify-content: center;
+  list-style: none;
+  margin-top: 20px;
+}
+li{
+color: #8987a1;
+  font-family: Inter;
+
+}
