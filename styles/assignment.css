@@ -1,0 +1,79 @@
+.russo-one-regular {
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* universal margin and padding */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/* header design */
+.header-design {
+  padding: 0 1em;
+  background-image: url(../images/Hero-bg.png);
+  width: 100%;
+  height: 698px;
+}
+.navbar-design {
+  display: flex;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 50px 0px;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Inter;
+}
+.btn {
+  border-radius: 10px;
+  color: #fff;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  background-color: #4e47ff;
+  display: flex;
+  height: 48px;
+  padding: 12px 36px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  gap: 10px;
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background-color: aqua;
+}
+.navbar-design h3 {
+  color: #4e47ff;
+  font-family: Inter;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 150%;
+}
+.head-maintext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 905px;
+  margin: 8% auto;
+  gap: 37px;
+}
+.maintext {
+  text-align: center;
+  font-family: Raleway;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #252432;
+}
+/* header section done */
+.main-body{
+background: #f5f8ff;
+
+}
